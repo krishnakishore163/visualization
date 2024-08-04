@@ -8,22 +8,64 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    Python: For customized visualizations with Matplotlib and Seaborn.
+    Power BI: For interactive and user-friendly visualizations
 
     > Who is your intended audience? 
-    
+    City Officials and Planners: To support decision-making regarding park and washroom facilities.
+    Community Members: To gain insights into accessibility and service alerts in parks.
+    PFR Staff: For managing and monitoring park facilities more effectively.
+
     > What information or message are you trying to convey with your visualization? 
+    Python Visualization:
+    Visualization: Heatmap of washroom density by location.
+    Highlights locations with varying densities of washroom facilities, aiding in resource allocation and maintenance planning.
+    Bar Chart of Washroom Types and Statuses: Shows the distribution of different types of washroom facilities and their operational statuses, providing insights into the availability and condition of these facilities.
     
+    Power BI Visualizations:
+    Total No. Parks by Type of Accessibility: Shows the distribution of parks based on their accessibility type, helping to identify which parks are more or less accessible.
+    No. of Closed/Service Alert Parks by Reason: Provides an overview of parks currently closed or under service alerts, categorized by the reasons for these statuses. This helps in understanding and addressing common issues.
+
+
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
-    
+    Substantive:
+    Accuracy: Ensured data accurately represents accessibility types and service alert reasons.
+    Relevance: Focused on key aspects like accessibility and service alerts to provide actionable insights.
+
+    Perceptual:
+    Clarity: Utilized clear labels, distinct colors, and intuitive layouts in Power BI to enhance data interpretation.
+    Simplicity: Designed visualizations to be straightforward, avoiding unnecessary complexity.
+
+    Aesthetic:
+    Consistency: Maintained a uniform design and color scheme to ensure visual coherence across visualizations.
+    Engagement: Made the dashboards interactive to facilitate user exploration and engagement with the data.
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
-    
+    Python: Used scripts that can be rerun with updated datasets, ensuring consistent and repeatable visualizations.
+    Power BI: Enabled automatic data refreshes and updates, ensuring that dashboards remain current and relevant
+
+    Impact of Non-Reproducibility: If visualizations in Power BI are not reproducible, it could lead to outdated or inaccurate insights, affecting decision-making. Reproducibility ensures ongoing accuracy and relevance.
+
     > How did you ensure that your data visualization is accessible?  
-    
+    Python: Applied clear annotations, accessible color schemes, and readable labels to enhance visualization accessibility.
+    Power BI: Configured visualizations to support accessibility features, including screen readers and color-blind friendly palettes.
+
     > Who are the individuals and communities who might be impacted by your visualization?  
-    
+    Community Members: Gain insights into park accessibility and service status.
+    City Planners: Use data to improve park accessibility and address service issues.
+    PFR Staff: Better manage park facilities based on current accessibility and service status information.
+
+
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
-    
+    Included: Focused on accessibility types and service alert reasons to provide relevant and actionable insights.
+    Excluded: Omitted less relevant details that do not directly contribute to the analysis of accessibility and service status.
+
+
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Data Cleaning: Ensured accuracy by addressing missing or inconsistent data.
+    Feature Engineering: Developed meaningful metrics and visual summaries for clear insights.
+    Customization: Tailored the visualizations to meet audience needs, ensuring they are both informative and actionabl
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
